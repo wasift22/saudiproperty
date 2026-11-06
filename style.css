@@ -108,6 +108,47 @@ button:hover {
 .footer p {
     margin: 0;
 }
+
+.about-intro {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+.about-text {
+    flex: 1;
+    min-width: 280px;
+}
+.about-intro img {
+    flex: 1;
+    min-width: 280px;
+    max-width: 100px;
+    height: 300px;
+    object-fit: 10px;
+}
+.stats {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    background-color: #aa1b1b;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+.stat h3 {
+    font-size: 36px;
+    margin: 0;
+}
+.stat p {
+    margin: 5px 0 0;
+}
+.cta {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+
 @media (max-width: 600px) {
     .navbar {
         flex-direction: column;
