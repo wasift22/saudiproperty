@@ -149,6 +149,20 @@ button:hover {
     text-align: center;
     padding: 40px 20px;
 }
+.cta {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+}
+.team .card {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    display: block;
+}
 
 @media (max-width: 600px) {
     .navbar {
